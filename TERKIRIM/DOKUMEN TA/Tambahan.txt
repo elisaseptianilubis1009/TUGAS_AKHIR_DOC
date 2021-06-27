@@ -1,0 +1,4 @@
+Tambahan di sistem TA
+1. form edit yang Dropdown masih findAll seharusnya finById
+2. Tambah field Action untuk approve pembayaran (Confirm, Reject) di Table Produk Masuk
+3. Tambah Table Baru untuk penyimpanan produk yang sudah dibayar (Kode Pesanan,Nama Pembeli,Total Pesanan,Tanggal Pesan,Tanggal Ppembayaran)
