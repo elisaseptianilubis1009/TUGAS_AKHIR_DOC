@@ -24,6 +24,15 @@
 <XPD:REF name="Diagram">n6NFSwD3F0SWXwf35puJ4wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:ATTR name="#Behaviors" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Behaviors[0]" type="UMLActivityGraph" guid="/aPsV5qci0qxdtk0n1wTXgAA">
+<XPD:ATTR name="Name" type="string">ActivityGraph1</XPD:ATTR>
+<XPD:REF name="Context">LwfiFufHNUW8blSd3Ggs1wAA</XPD:REF>
+<XPD:OBJ name="Top" type="UMLCompositeState" guid="IPrbHI97nUah2bTsSgEjEQAA">
+<XPD:ATTR name="Name" type="string">TOP</XPD:ATTR>
+<XPD:REF name="StateMachine">/aPsV5qci0qxdtk0n1wTXgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
 <XPD:ATTR name="#OwnedElements" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLActor" guid="sJ4mucxztUe0gnj7nxjDVgAA">
 <XPD:ATTR name="Name" type="string">Aktor</XPD:ATTR>
@@ -7475,7 +7484,7 @@
 <XPD:OBJ name="OwnedViews[0]" type="UMLFrameView" guid="o/YRWRYCckukEgFFcAY0fQAA">
 <XPD:ATTR name="LineColor" type="string">$FFFFFFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">244</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">28</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">24</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">529</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">549</XPD:ATTR>
 <XPD:REF name="Model">Wg6yWqUnjEapiaoVSMsGmAAA</XPD:REF>
