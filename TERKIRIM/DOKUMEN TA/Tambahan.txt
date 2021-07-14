@@ -2,4 +2,33 @@ Tambahan di sistem TA
 1. form edit yang Dropdown masih findAll seharusnya finById
 2. Tambah field Action untuk approve pembayaran (Confirm) di Table Produk Keluar(Pembayaran)
 3. Tambah Table Baru untuk penyimpanan produk yang sudah dibayar (Kode Pesanan,Nama Pembeli,Total Pesanan,Tanggal Pesan,Tanggal Pembayaran)
-4. Berat produk tergenerate otomatis
+4. Terdapat error ketika edit produk
+WIDODO
+PERIODE UPLOAD= P1
+LIST UPLOAD = L6
+
+MARCHALL 
+ROLE = RO_MDH1TRE
+PERIODE UPLOAD= P4
+LIST UPLOAD = L6
+
+SINGGIH
+ROLE= RO_AHMIPAQ
+PERIODE UPLOAD= P3
+LIST UPLOAD = L8
+
+
+SINGGIH
+ROLE= dasd
+PERIODE UPLOAD= P1
+LIST UPLOAD = L4
+
+SELECT to_char(kry.iidnrp),kry.vnama, kry.vemail from  
+        ahmipuam_mstuserrls usr inner join 
+        ahmmoerp_mstkaryawans kry on usr.vusername = kry.vnamaldap inner join 
+        ahmipuam_mstroleaccs rac on rac.iinternalid=usr.iinternalid inner join 
+        ahmipuam_mstroles rol on rac.iinternalid = rol.iinternalid where rol.vrolename=rol.vrolename;
+
+select * from ahmmoerp_mstkaryawans where VNAMA='SINGGIH SUHENDRA';
+select * from ahmipuam_mstroles where iinternalid='227';
+select * from ahmipuam_mstuserrls where VUSERNAME='singgih.su';
