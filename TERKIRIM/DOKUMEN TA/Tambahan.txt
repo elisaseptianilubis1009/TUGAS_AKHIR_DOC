@@ -32,3 +32,27 @@ SELECT to_char(kry.iidnrp),kry.vnama, kry.vemail from
 select * from ahmmoerp_mstkaryawans where VNAMA='SINGGIH SUHENDRA';
 select * from ahmipuam_mstroles where iinternalid='227';
 select * from ahmipuam_mstuserrls where VUSERNAME='singgih.su';
+
+
+
+vsgmn4cd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
